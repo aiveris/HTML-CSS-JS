@@ -1,8 +1,6 @@
 package cf.mindaugas.model.BasicTypes;
 
-import cf.mindaugas.model.BasicTypes2.Name;
 import org.hibernate.annotations.Type;
-
 import javax.persistence.Entity;
 import javax.persistence.Id;
 import java.net.URL;

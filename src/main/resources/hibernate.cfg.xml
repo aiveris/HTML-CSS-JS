@@ -9,6 +9,6 @@
         <property name = "hibernate.connection.password">staind0323</property>
         <property name="hibernate.hbm2ddl.auto">create</property>
 
-        <mapping class="cf.mindaugas.model.User"/>
+        <mapping class="cf.mindaugas.model.CollectionTypes.UserWPhone"/>
     </session-factory>
 </hibernate-configuration>
