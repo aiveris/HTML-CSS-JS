@@ -1,0 +1,23 @@
+table, th, td {
+    border: 1px solid black;
+}
+
+#text-button1 {
+    color: red;
+}
+
+.my-class {
+    color: grey;
+}
+
+div {
+    color: red;
+}
+
+#my-div div {
+    color: blue;
+}
+
+[name="some-name"] {
+    color: blue;
+}

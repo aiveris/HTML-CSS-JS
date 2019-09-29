@@ -1,0 +1,34 @@
+/* Combined selector */
+table, th, td {
+    border: 1px solid black;
+}
+
+#text-button1 {
+    color: red;
+}
+
+/* Will ID win over class? */
+#my-div2 {
+    color: lightskyblue;
+}
+
+.my-class {
+    color: grey;
+}
+
+button {
+    color: red;
+}
+
+div {
+    color: red;
+}
+
+
+#my-div div {
+    color: lightsalmon;
+}
+
+[name="some-name"] {
+    color: blue;
+}

@@ -1,0 +1,18 @@
+table, th, td {
+    border: 1px solid black;
+}
+#text-button1 {
+    color: red;
+}
+#text-button2 {
+    color: magenta;
+}
+#text-button3 {
+    color: green;
+}
+div {
+    color: blue;
+}
+label+p {
+    color: darkmagenta;
+}

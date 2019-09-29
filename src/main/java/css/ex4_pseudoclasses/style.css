@@ -1,0 +1,18 @@
+button:nth-child(2n) {
+    color: green;
+}
+
+button:hover {
+    color: red;
+    background-color: grey;
+}
+
+#fourth-button:before {
+    content: "My ";
+    color: red;
+}
+
+#fourth-button:after {
+    content: "!";
+    color: red;
+}

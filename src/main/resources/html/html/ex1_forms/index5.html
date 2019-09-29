@@ -1,0 +1,107 @@
+<html>
+<head>
+    <!--  This is the page title -->
+    <title>CCCCCC</title>
+</head>
+<body>
+<h1>The Title of the Article</h1>
+<p>This text is a paragraph. This text is a paragraph. This text is a paragraph. This text is a paragraph.&nbsp;This text is a paragraph. This text is a paragraph.This text is a paragraph.This text is a paragraph. This text is a paragraph.</p>
+<p>This text is another paragraph</p>
+<p>This is a line of text <span>with a span element</span> inside<p>
+<div>First block</div>
+<div>Second block</div>
+<div>Third block</div>
+<a href="http://lrytas.lt">Link to google.com</a><br>
+​
+<!--  Include image from external sources -->
+<img src="https://cdn.pixabay.com/photo/2018/05/07/10/48/husky-3380548__340.jpg">
+​
+<!--  Include image from local server -->
+<div>
+    <img src="download.jpg">
+</div>
+​
+<ul>
+    <li>First element</li>
+    <li>Second element</li>
+    <li>Third element</li>
+</ul>
+<ol>
+    <li>First element</li>
+    <li>Second element</li>
+    <li>Third element</li>
+</ol>
+<p>First line<br>Second line</p>
+​
+<!-- HTML character / symbol encoding -->
+<p>Special characters: &lt;p&gt;&lt;/p&gt;</p>
+​
+​
+<!-- Simple table w/ simple styling -->
+<style>
+    table, th, td {
+        border: 1px solid black;
+    }
+</style>
+<!--  Excercise: we have two rows and two collumns initially.
+Extend the table so it would have 4 rows and 4 oollumns -->
+<table>
+    <thead>
+    <tr>
+        <th>First header</th>
+        <th>Second header</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr>
+        <td>First cell</td>
+        <td>Second cell</td>
+    </tr>
+    <tr>
+        <td colspan="2">First cell</td>
+    </tr>
+    </tbody>
+</table>
+​
+<em>Em tag contents</em><br>
+<strong>Strong tag contents</strong><br>
+<code>Code tag contents</code><br>
+​
+<form>
+    <!-- single-line text input-->
+    <input type="text" value="Default value">
+    <!-- multiple-line text input-->
+    <textarea rows="3" cols="20">Default value</textarea>
+</form>
+​
+<form>
+    <label for="some-input">Label for the input</label>
+    <input type="text" value="some input" id="some-input">
+</form>
+​
+<form>
+    <!-- a button that can contain html tags-->
+    <button><strong>Displayed</strong> text</button>
+    <!-- simple button-->
+    <input type="button" value="Displayed text">
+</form>
+​
+<form>
+    <label for="option-1">Option 1
+        <input type="radio" name="set-of-options" id="option-1">
+    </label>
+    <label for="option-2">Option 2
+        <input type="radio" name="set-of-options" id="option-2">
+    </label>
+    <label for="some-checkbox">
+        <input type="checkbox" id="some-checkbox">Checkbox description
+    </label></br>
+    <label for="some-select">A dropdown</label>
+    <select id="some-select">
+        <option>Option 1</option>
+        <option selected>Option 2
+        <option disabled>Option 3
+    </select>
+</form>
+</body>
+</html>
