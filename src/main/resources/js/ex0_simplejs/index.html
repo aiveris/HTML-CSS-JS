@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>JS examples</title>
+    <style>
+        p {
+            font-style: italic;
+        }
+    </style>
+</head>
+<body>
+<p onclick="alert('Hello world!');">Show me the alert!</p>
+<!-- 0. we can include js directly into the elements - this approach is called inline javascript
+        and is rarelly used in the final product, but can be used for developer to just try something -->
+<p onclick="var x = 1; console.log('Paragraph clicked ' + x + ' time(s)'); x++;">Example w/ inline JS</p>
+
+<!-- Why does'nt this work? Because we are redecaring the x each time to be 0, we need to declare it once and then use it: -->
+<!-- 1. ... and this illustrates the usage of embedded JS in your web pages -->
+<script>var x = 1;</script>
+<p onclick="console.log('Paragraph clicked ' + x + ' time(s)'); x++;">Example w/ embedded JS</p>
+
+<!-- 2. The approach that is most common is to have an external javascript file, it's called external script -->
+<!-- ... we will use this approach in most examples that will follow -->
+<script src="script.js"></script>
+</body>
+</html>
